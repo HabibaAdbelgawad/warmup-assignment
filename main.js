@@ -277,15 +277,4 @@ function getNetPay(driverID, actualHours, requiredHours, rateFile) {
     return basePay - deduction;
 }
 
-module.exports = {
-    getShiftDuration,
-    getIdleTime,
-    getActiveTime,
-    metQuota,
-    addShiftRecord,
-    setBonus,
-    countBonusPerMonth,
-    getTotalActiveHoursPerMonth,
-    getRequiredHoursPerMonth,
-    getNetPay
-};
+
